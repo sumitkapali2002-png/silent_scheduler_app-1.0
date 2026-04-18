@@ -1,17 +1,38 @@
-# silent_scheduler_app
+# Silent Scheduler App
 
-A new Flutter project.
+## Overview
+The Silent Scheduler App is a Flutter-based mobile application that allows users to schedule their phone to switch between Silent and Vibrate modes automatically. It helps users manage notifications during classes, meetings, or sleep.
 
-## Getting Started
+## Features
+- Add and delete schedules
+- Schedule Silent or Vibrate mode
+- Test notification feature
+- Clear notifications option
+- World clock (Sydney, Kathmandu, London, New York)
+- Language switching (English / Nepali)
+- Clean and user-friendly interface
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- Flutter (Dart)
+- Android Studio
+- flutter_local_notifications
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
+- lib/ → Main app code
+- android/ → Android config
+- ios/ → iOS config
+- web/ → Web support
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## How to Run
+1. Clone the repository
+2. Open in Android Studio
+3. Run the following commands:
+   
+flutter pub get
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## APK Build
+To generate APK:
+
+flutter build apk
+
